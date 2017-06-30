@@ -5,21 +5,20 @@ body {
 #navigation {
   background-image: url("/Users/jessmorley/Documents/broadway/resources/images/the-flatiron-building.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: top;
-  color:white;
 }
 h1 {
   font-size: 70px;
   font-weight: bold;
 }
-ul {
-  list-style: none;
-  font-size: 18px;
-}
-ul li {
+ul#upper li {
   margin-top: 10px;
   margin-bottom: 10px;
+  list-style: none;
+  font-size: 18px;
+  margin-right:40px;
+  color:white;
 }
 a:link {
   color: white;
@@ -28,16 +27,39 @@ a:visited {
   color:purple;
 }
 h2 {
-  font-size: 32;
+  font-size: 32px;
   font-weight: bold;
 }
 h3 {
-  font-size: 23;
+  font-size: 23px;
   font-weight:bold;
 }
 p {
   font-size: 14px;
 }
-#bottom {
-  display:inline;
+.NYC {
+  background-image: url("/Users/jessmorley/Documents/broadway/resources/images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top;
+  width: 100%;
+  color:white;
+  font-size:23;
+  font-weight:bold;
+}
+.footer {
+  background: dimgray;
+  font-size: 11px;
+  color: white;
+  float: left;
+  width:100%;
+}
+ul#lower li {
+  display:inline-block;
+  height:11px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  list-style: none;
+  float: left;
 }
